@@ -21,7 +21,7 @@ body {
   padding: 15px;
 }
 
-.flexbox .board {
+.flexbox .Board {
   display: flex;
   flex-direction: column;
 
@@ -33,7 +33,7 @@ body {
   padding: 15px;
 }
 
-.flexbox .board .card {
+.flexbox .Board .Card {
   padding: 15px 25px;
   background-color: #F3F3F3;
 

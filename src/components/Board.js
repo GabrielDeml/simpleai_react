@@ -12,12 +12,17 @@ function Board(props) {
         e.preventDefault();
     }
 
+    const onDragLeave = e => {
+        console.log("We think they left");
+    }
+
     return (
         <div
             id={props.id}
             className={props.className}
             onDrop={drop}
             onDragOver={dragOver}
+            onDragLeave={onDragLeave}
         >
             {props.children}
         </div>
