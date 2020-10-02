@@ -1,14 +1,19 @@
 import React from "react";
-import "./App.css";
+import Button from '@material-ui/core/Button';
+import TopBar from "./components/TopbBar";
+
+function clickTheButton() {
+    console.log("I was clicked")
+}
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>SimpleAI</p>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <p>SimpleAI</p>
+            <Button onClick={clickTheButton}>Click me</Button>
+        </div>
+    );
 }
+
 
 export default App;
