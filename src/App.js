@@ -1,17 +1,25 @@
 import React from "react";
-import Button from '@material-ui/core/Button';
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import About from "./components/About";
+import Home from "./components/Home";
 import TopBar from "./components/TopbBar";
 
-function clickTheButton() {
-    console.log("I was clicked")
-}
 
 function App() {
     return (
-        <div>
-            <p>SimpleAI</p>
-            <Button onClick={clickTheButton}>Click me</Button>
-        </div>
+        <Router>
+            <div>
+                <TopBar/>
+                <Switch>
+                    <Route path="/about">
+                        <About/>
+                    </Route>
+                    <Route path="/">
+                        <Home/>
+                    </Route>
+                </Switch>
+            </div>
+        </Router>
     );
 }
 

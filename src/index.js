@@ -1,31 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {BrowserRouter as Router, Route} from 'react-router-dom'
-import About from "./components/About";
-import TopBar from "./components/TopbBar";
-
-// const routing = (
-//     <Router>
-//         <div>
-//             <Route path="/" component={App} />
-//             <Route path="/about" component={About} />
-//         </div>
-//     </Router>
-// )
+import App from "./App";
 
 ReactDOM.render(
-    <React.StrictMode>
-        <TopBar/>
-        <Router>
-            <div>
-                <Route exact path="/"><App/></Route>
-                <Route path="/about"><About/></Route>
-            </div>
-        </Router>
-    </React.StrictMode>,
+    <App/>,
     document.getElementById('root')
 );
 
