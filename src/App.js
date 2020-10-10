@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import About from "./components/About";
 import Home from "./components/Home";
 import TopBar from "./components/TopbBar";
+import TensorFlowTest from "./components/TensorFlowTest";
 
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
             <div>
                 <TopBar/>
                 <Switch>
+                    <Route path="/tensorflowjstest">
+                        <TensorFlowTest/>
+                    </Route>
                     <Route path="/about">
                         <About/>
                     </Route>

@@ -11,6 +11,7 @@ function TopBar() {
             <Toolbar>
                 <Link href="/home"><Button>Home</Button></Link>
                 <Link href="/about"><Button>about</Button></Link>
+                <Link href="/tensorflowjstest"><Button>tensorflowJsTest</Button></Link>
             </Toolbar>
 
         </AppBar>
