@@ -29,6 +29,30 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyDoPIrQtOcUeJQwSIf-2eVwsV3kE8Ayiv0",
+        authDomain: "simpleai-290905.firebaseapp.com",
+        databaseURL: "https://simpleai-290905.firebaseio.com",
+        projectId: "simpleai-290905",
+        storageBucket: "simpleai-290905.appspot.com",
+        messagingSenderId: "976247571299",
+        appId: "1:976247571299:web:85672bbb918305b7328956",
+        measurementId: "G-DRVX5X94NT"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
     <div id="root"></div>
     <!--
       This HTML file is a template.
