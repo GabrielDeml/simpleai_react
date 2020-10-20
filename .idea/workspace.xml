@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e198ad0-fb4a-4835-a1eb-6d4504678586" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/TensorFlowTest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopbBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopbBar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +74,9 @@
       <workItem from="1601737540651" duration="3876000" />
       <workItem from="1601814888233" duration="3331000" />
       <workItem from="1602337431684" duration="1885000" />
-      <workItem from="1602340862764" duration="2205000" />
+      <workItem from="1602340862764" duration="4879000" />
+      <workItem from="1603026925205" duration="1259000" />
+      <workItem from="1603133786486" duration="5087000" />
     </task>
     <task id="LOCAL-00001" summary="Added routing and navbar">
       <created>1601637087713</created>
@@ -87,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601637087713</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&#10;Switched to browser router.">
+      <created>1603197450573</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603197450574</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,13 +112,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added routing and navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added routing and navbar" />
+    <MESSAGE value="&#10;Switched to browser router." />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Switched to browser router." />
   </component>
   <component name="WindowStateProjectService">
     <state x="817" y="422" width="276" height="257" key="#ESLint" timestamp="1601636629894">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="817" y="422" width="276" height="257" key="#ESLint/0.0.1920.1080@0.0.1920.1080" timestamp="1601636629894" />
+    <state x="1056" y="0" width="768" height="1080" key="DiffContextDialog" timestamp="1602348426983">
+      <screen x="0" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1056" y="0" width="768" height="1080" key="DiffContextDialog/2560.0.1920.1080/0.0.2560.1080@0.0.2560.1080" timestamp="1602348426983" />
     <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl" timestamp="1601818095313">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
